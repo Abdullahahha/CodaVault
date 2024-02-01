@@ -1,0 +1,84 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    width: 98.5vw;
+    height: 100vh;
+    background-color: #686de0;
+    
+
+}
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+  
+}
+.div1{
+    width:370px ;
+    height: 230px;
+    border: 2px solid white;
+      margin-top: 40px;
+      border-radius: 10px;
+      font-weight: bold;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    margin-left: 20px;
+}
+.two{
+    width:370px ;
+    height: 230px;
+    border: 2px solid rgb(255, 255, 255);
+    margin-top: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+.three{
+    width:370px ;
+    height: 230px;
+    border: 2px solid rgb(255, 252, 252);
+    margin-top: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.four{
+    width:370px ;
+    height: 230px;
+    border: 2px solid rgb(255, 247, 247);
+    margin-top: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.five{
+    width:370px ;
+    height: 230px;
+    border: 2px solid rgb(255, 253, 253);
+    margin-top: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.six{
+    width:370px ;
+    height: 230px;
+    border: 2px solid rgb(255, 255, 255);
+    margin-top: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+    
+} 
+img{
+    width: 350px;
+    margin: 10px 10px 5px 10px;
+    border-radius: 15px;
+
+}
