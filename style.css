@@ -1,60 +1,41 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background: #c45e16;
+    color: #f1e7e7;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #4a565e;
-    margin: 0;
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 20px;
 }
-
-.calculator {
-    width: 400px;
-    background: #ffffff;
-    border-radius: 20px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-
-.display {
-    background: #000000;
-    color: #ffffff;
-    font-size: 2em;
-    padding: 20px;
-    text-align: right;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+.btn_container{
+    margin-top: 50px;
 }
-
-.keys {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1px;
-}
-
-.key {
-    background-color: #e0e0e0;
+.bulb_btn{
+    font-family: 'arial' ;
+    width: 150px;
+    height: 50px;
     border: none;
-    padding: 25px 0;
-    font-size: 1.5em;
-    color: #333;
     outline: none;
-    transition: background-color 0.2s;
-}
-
-.key.op {
-    background-color: #ff9500;
-    color: #fff;
-}
-
-.key.double {
-    grid-column: span 2;
-}
-
-.key:active {
-    background-color: #d4d4d2;
-}
-
-.op:active {
-    background-color: #ff9500;
-    opacity: 0.9;
+    cursor: pointer;
+    background: #8b8484;
+    font-size: 30px;
+    border-radius: 10px;
 }
